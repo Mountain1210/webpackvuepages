@@ -2,213 +2,75 @@ webpackJsonp([0],[
 /* 0 */,
 /* 1 */,
 /* 2 */
+/* no static exports found */
+/* all exports used */
+/*!*****************************************!*\
+  !*** ./src/components/loading/index.js ***!
+  \*****************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-__webpack_require__(12);
-var html = __webpack_require__(13);
-var dom = document.getElementById('com-loading');
-if (!dom) {
-	dom = document.createElement('div');
-	dom.id = 'com-loading';
-	dom.style.display = "none";
-}
-dom.innerHTML = html;
-document.body.appendChild(dom);
-module.exports = {
-	show: function show() {
-		dom.style.display = "block";
-	},
-	hide: function hide() {
-		dom.style.display = "none";
-	}
-};
+eval("\n\n__webpack_require__(/*! ./style.css */ 10);\nvar html = __webpack_require__(/*! ./view.html */ 11);\nvar dom = document.getElementById('com-loading');\nif (!dom) {\n\tdom = document.createElement('div');\n\tdom.id = 'com-loading';\n\tdom.style.display = \"none\";\n}\ndom.innerHTML = html;\ndocument.body.appendChild(dom);\nmodule.exports = {\n\tshow: function show() {\n\t\tdom.style.display = \"block\";\n\t},\n\thide: function hide() {\n\t\tdom.style.display = \"none\";\n\t}\n};//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMi5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9zcmMvY29tcG9uZW50cy9sb2FkaW5nL2luZGV4LmpzPzFjNTUiXSwic291cmNlc0NvbnRlbnQiOlsicmVxdWlyZSgnLi9zdHlsZS5jc3MnKTtcclxubGV0IGh0bWwgPSByZXF1aXJlKCcuL3ZpZXcuaHRtbCcpO1xyXG5sZXQgZG9tID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2NvbS1sb2FkaW5nJyk7XHJcbmlmKCFkb20pe1xyXG5cdGRvbSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2RpdicpO1xyXG5cdGRvbS5pZCA9ICdjb20tbG9hZGluZyc7XHJcblx0ZG9tLnN0eWxlLmRpc3BsYXkgPSBcIm5vbmVcIjtcclxufVxyXG5kb20uaW5uZXJIVE1MID0gaHRtbDtcclxuZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZChkb20pO1xyXG5tb2R1bGUuZXhwb3J0cyA9IHtcclxuXHRzaG93KCl7XHJcblx0XHRkb20uc3R5bGUuZGlzcGxheSA9IFwiYmxvY2tcIjtcclxuXHR9LFxyXG5cdGhpZGUoKXtcclxuXHRcdGRvbS5zdHlsZS5kaXNwbGF5ID0gXCJub25lXCI7XHJcblx0fVxyXG59XG5cblxuLy8gV0VCUEFDSyBGT09URVIgLy9cbi8vIHNyYy9jb21wb25lbnRzL2xvYWRpbmcvaW5kZXguanMiXSwibWFwcGluZ3MiOiI7O0FBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQU5BIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///2\n");
 
 /***/ }),
 /* 3 */,
 /* 4 */,
 /* 5 */
+/* no static exports found */
+/* all exports used */
+/*!*********************************************!*\
+  !*** ./src/lib/bootstrap/css/bootstrap.css ***!
+  \*********************************************/
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+eval("// removed by extract-text-webpack-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiNS5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy9saWIvYm9vdHN0cmFwL2Nzcy9ib290c3RyYXAuY3NzPzgyNjUiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gcmVtb3ZlZCBieSBleHRyYWN0LXRleHQtd2VicGFjay1wbHVnaW5cblxuXG4vLy8vLy8vLy8vLy8vLy8vLy9cbi8vIFdFQlBBQ0sgRk9PVEVSXG4vLyAuL3NyYy9saWIvYm9vdHN0cmFwL2Nzcy9ib290c3RyYXAuY3NzXG4vLyBtb2R1bGUgaWQgPSA1XG4vLyBtb2R1bGUgY2h1bmtzID0gMCJdLCJtYXBwaW5ncyI6IkFBQUEiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///5\n");
 
 /***/ }),
 /* 6 */,
 /* 7 */
+/* no static exports found */
+/* all exports used */
+/*!*********************************!*\
+  !*** ./src/views/test/test.css ***!
+  \*********************************/
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+eval("// removed by extract-text-webpack-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiNy5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy92aWV3cy90ZXN0L3Rlc3QuY3NzP2E4MDYiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gcmVtb3ZlZCBieSBleHRyYWN0LXRleHQtd2VicGFjay1wbHVnaW5cblxuXG4vLy8vLy8vLy8vLy8vLy8vLy9cbi8vIFdFQlBBQ0sgRk9PVEVSXG4vLyAuL3NyYy92aWV3cy90ZXN0L3Rlc3QuY3NzXG4vLyBtb2R1bGUgaWQgPSA3XG4vLyBtb2R1bGUgY2h1bmtzID0gMCJdLCJtYXBwaW5ncyI6IkFBQUEiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///7\n");
 
 /***/ }),
 /* 8 */,
-/* 9 */,
-/* 10 */,
-/* 11 */
+/* 9 */
+/* no static exports found */
+/* all exports used */
+/*!********************************!*\
+  !*** ./src/views/test/test.js ***!
+  \********************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(jQuery, vue) {
-
-__webpack_require__(7);
-__webpack_require__(5);
-//require('lib/bootstrap/js/bootstrap');
-var $ = jQuery;
-var load = __webpack_require__(2);
-var reg = /^0?1[3|4|5|7|8][0-9]\d{8}$/;
-var idNum = 1;
-var view = new vue({
-	el: "#app",
-	data: function data() {
-		return {
-			list: [],
-			curItem: {},
-			name: "",
-			sex: "",
-			phone: "",
-			curPage: 1,
-			pageSize: 5
-		};
-	},
-	created: function created() {
-		// TODO获取列表数据
-		var list = [];
-		for (var i = 0; i < 20; i++) {
-			list.push({
-				id: idNum,
-				name: "test" + i,
-				sex: i % 2 ? 'man' : 'woman',
-				phone: '13168028932'
-			});
-			idNum++;
-		}
-		this.list = list;
-	},
-
-	watch: {
-		curItem: function curItem(n, o) {
-			this.name = n.name;
-			this.phone = n.phone;
-			this.sex = n.sex;
-		}
-	},
-	computed: {
-		vailPhone: function vailPhone() {
-			var phone = this.phone;
-			if (phone) {
-				return reg.test(phone);
-			} else {
-				return true;
-			}
-		},
-		totalPage: function totalPage() {
-			var size = this.pageSize;
-			var totalItems = this.list.length;
-			return Math.ceil(totalItems / size);
-		},
-		canPre: function canPre() {
-			return this.curPage > 1;
-		},
-		canNext: function canNext() {
-			return this.curPage < this.totalPage;
-		}
-	},
-	methods: {
-		showLoading: function showLoading() {
-			load.show();
-			setTimeout(function () {
-				load.hide();
-			}, 3000);
-		},
-		showList: function showList() {
-			var size = this.pageSize;
-			var start = (this.curPage - 1) * size;
-			var end = this.curPage * size;
-			return this.list.slice(start, end);
-		},
-		prePage: function prePage() {
-			if (this.canPre) {
-				this.curPage--;
-			}
-		},
-		nextPage: function nextPage() {
-			if (this.canNext) {
-				this.curPage++;
-			}
-		},
-		goPage: function goPage(page) {
-			this.curPage = page;
-		},
-		addItem: function addItem() {
-			$('#myModal').modal('show');
-		},
-		modifyItem: function modifyItem(item) {
-			this.curItem = item;
-			$('#myModal').modal('show');
-		},
-		deleteItem: function deleteItem(item) {
-			var flag = confirm('确定删除吗？');
-			if (!flag) return;
-			var list = this.list.filter(function (si) {
-				return si.id !== item.id;
-			});
-			this.list = list;
-		},
-		saveOrModify: function saveOrModify() {
-			var phone = this.phone;
-			if (!this.vailPhone) {
-				return;
-			}
-			var name = this.name;
-			var sex = this.sex;
-			var item = {
-				name: name,
-				sex: sex,
-				phone: phone,
-				id: idNum
-			};
-			var hasId = this.curItem.id;
-			if (hasId) {
-				//修改
-				var list = this.list.map(function (si) {
-					if (si.id === hasId) {
-						item.id = hasId;
-						return item;
-					} else {
-						return si;
-					}
-				});
-				console.log(list);
-				this.list = list;
-			} else {
-				//添加
-				this.list.push(item);
-			}
-			this.curItem = {};
-			idNum++;
-			$('#myModal').modal('hide');
-		}
-	}
-});
-
-$('#myModal').on('hide.bs.modal', function () {
-	view.curItem = {};
-});
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(0)))
+eval("/* WEBPACK VAR INJECTION */(function(jQuery, vue) {\n\n__webpack_require__(/*! ./test.css */ 7);\n__webpack_require__(/*! lib/bootstrap/css/bootstrap */ 5);\n//require('lib/bootstrap/js/bootstrap');\nvar $ = jQuery;\nvar load = __webpack_require__(/*! components/loading */ 2);\nvar reg = /^0?1[3|4|5|7|8][0-9]\\d{8}$/;\nvar idNum = 1;\nvar view = new vue({\n\tel: \"#app\",\n\tdata: function data() {\n\t\treturn {\n\t\t\tlist: [],\n\t\t\tcurItem: {},\n\t\t\tname: \"\",\n\t\t\tsex: \"\",\n\t\t\tphone: \"\",\n\t\t\tcurPage: 1,\n\t\t\tpageSize: 5\n\t\t};\n\t},\n\tcreated: function created() {\n\t\t// TODO获取列表数据\n\t\tvar list = [];\n\t\tfor (var i = 0; i < 20; i++) {\n\t\t\tlist.push({\n\t\t\t\tid: idNum,\n\t\t\t\tname: \"test\" + i,\n\t\t\t\tsex: i % 2 ? 'man' : 'woman',\n\t\t\t\tphone: '13168028932'\n\t\t\t});\n\t\t\tidNum++;\n\t\t}\n\t\tthis.list = list;\n\t},\n\n\twatch: {\n\t\tcurItem: function curItem(n, o) {\n\t\t\tthis.name = n.name;\n\t\t\tthis.phone = n.phone;\n\t\t\tthis.sex = n.sex;\n\t\t}\n\t},\n\tcomputed: {\n\t\tvailPhone: function vailPhone() {\n\t\t\tvar phone = this.phone;\n\t\t\tif (phone) {\n\t\t\t\treturn reg.test(phone);\n\t\t\t} else {\n\t\t\t\treturn true;\n\t\t\t}\n\t\t},\n\t\ttotalPage: function totalPage() {\n\t\t\tvar size = this.pageSize;\n\t\t\tvar totalItems = this.list.length;\n\t\t\treturn Math.ceil(totalItems / size);\n\t\t},\n\t\tcanPre: function canPre() {\n\t\t\treturn this.curPage > 1;\n\t\t},\n\t\tcanNext: function canNext() {\n\t\t\treturn this.curPage < this.totalPage;\n\t\t}\n\t},\n\tmethods: {\n\t\tshowLoading: function showLoading() {\n\t\t\tload.show();\n\t\t\tsetTimeout(function () {\n\t\t\t\tload.hide();\n\t\t\t}, 3000);\n\t\t},\n\t\tshowList: function showList() {\n\t\t\tvar size = this.pageSize;\n\t\t\tvar start = (this.curPage - 1) * size;\n\t\t\tvar end = this.curPage * size;\n\t\t\treturn this.list.slice(start, end);\n\t\t},\n\t\tprePage: function prePage() {\n\t\t\tif (this.canPre) {\n\t\t\t\tthis.curPage--;\n\t\t\t}\n\t\t},\n\t\tnextPage: function nextPage() {\n\t\t\tif (this.canNext) {\n\t\t\t\tthis.curPage++;\n\t\t\t}\n\t\t},\n\t\tgoPage: function goPage(page) {\n\t\t\tthis.curPage = page;\n\t\t},\n\t\taddItem: function addItem() {\n\t\t\t$('#myModal').modal('show');\n\t\t},\n\t\tmodifyItem: function modifyItem(item) {\n\t\t\tthis.curItem = item;\n\t\t\t$('#myModal').modal('show');\n\t\t},\n\t\tdeleteItem: function deleteItem(item) {\n\t\t\tvar flag = confirm('确定删除吗？');\n\t\t\tif (!flag) return;\n\t\t\tvar list = this.list.filter(function (si) {\n\t\t\t\treturn si.id !== item.id;\n\t\t\t});\n\t\t\tthis.list = list;\n\t\t},\n\t\tsaveOrModify: function saveOrModify() {\n\t\t\tvar phone = this.phone;\n\t\t\tif (!this.vailPhone) {\n\t\t\t\treturn;\n\t\t\t}\n\t\t\tvar name = this.name;\n\t\t\tvar sex = this.sex;\n\t\t\tvar item = {\n\t\t\t\tname: name,\n\t\t\t\tsex: sex,\n\t\t\t\tphone: phone,\n\t\t\t\tid: idNum\n\t\t\t};\n\t\t\tvar hasId = this.curItem.id;\n\t\t\tif (hasId) {\n\t\t\t\t//修改\n\t\t\t\tvar list = this.list.map(function (si) {\n\t\t\t\t\tif (si.id === hasId) {\n\t\t\t\t\t\titem.id = hasId;\n\t\t\t\t\t\treturn item;\n\t\t\t\t\t} else {\n\t\t\t\t\t\treturn si;\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t\tconsole.log(list);\n\t\t\t\tthis.list = list;\n\t\t\t} else {\n\t\t\t\t//添加\n\t\t\t\tthis.list.push(item);\n\t\t\t}\n\t\t\tthis.curItem = {};\n\t\t\tidNum++;\n\t\t\t$('#myModal').modal('hide');\n\t\t}\n\t}\n});\n\n$('#myModal').on('hide.bs.modal', function () {\n\tview.curItem = {};\n});\n/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! lib/jquery-2.1.0.js */ 1), __webpack_require__(/*! lib/vue.js */ 0)))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiOS5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9zcmMvdmlld3MvdGVzdC90ZXN0LmpzP2YwYWMiXSwic291cmNlc0NvbnRlbnQiOlsicmVxdWlyZSgnLi90ZXN0LmNzcycpO1xyXG5yZXF1aXJlKCdsaWIvYm9vdHN0cmFwL2Nzcy9ib290c3RyYXAnKTtcclxuLy9yZXF1aXJlKCdsaWIvYm9vdHN0cmFwL2pzL2Jvb3RzdHJhcCcpO1xyXG52YXIgJCA9IGpRdWVyeTtcclxudmFyIGxvYWQgPSByZXF1aXJlKCdjb21wb25lbnRzL2xvYWRpbmcnKTtcclxudmFyIHJlZyA9IC9eMD8xWzN8NHw1fDd8OF1bMC05XVxcZHs4fSQvO1xyXG52YXIgaWROdW0gPSAxO1xyXG52YXIgdmlldyA9IG5ldyB2dWUoe1xyXG5cdGVsOlwiI2FwcFwiLFxyXG5cdGRhdGEoKXtcclxuXHRcdHJldHVybiB7XHJcblx0XHRcdGxpc3Q6W10sXHJcblx0XHRcdGN1ckl0ZW06e30sXHJcblx0XHRcdG5hbWU6XCJcIixcclxuXHRcdFx0c2V4OlwiXCIsXHJcblx0XHRcdHBob25lOlwiXCIsXHJcblx0XHRcdGN1clBhZ2U6MSxcclxuXHRcdFx0cGFnZVNpemU6NVxyXG5cdFx0fTtcclxuXHR9LFxyXG5cdGNyZWF0ZWQoKXtcclxuXHRcdC8vIFRPRE/ojrflj5bliJfooajmlbDmja5cclxuXHRcdHZhciBsaXN0ID0gW107XHJcblx0XHRmb3IodmFyIGk9MDtpPDIwO2krKyl7XHJcblx0XHRcdGxpc3QucHVzaCh7XHJcblx0XHRcdFx0aWQ6aWROdW0sXHJcblx0XHRcdFx0bmFtZTpcInRlc3RcIitpLFxyXG5cdFx0XHRcdHNleDppJTI/J21hbic6J3dvbWFuJyxcclxuXHRcdFx0XHRwaG9uZTonMTMxNjgwMjg5MzInXHJcblx0XHRcdH0pO1xyXG5cdFx0XHRpZE51bSsrO1xyXG5cdFx0fVxyXG5cdFx0dGhpcy5saXN0ID0gbGlzdDtcclxuXHR9LFxyXG5cdHdhdGNoOntcclxuXHRcdGN1ckl0ZW0obixvKXtcclxuXHRcdFx0dGhpcy5uYW1lID0gbi5uYW1lO1xyXG5cdFx0XHR0aGlzLnBob25lID0gbi5waG9uZTtcclxuXHRcdFx0dGhpcy5zZXggPSBuLnNleDtcclxuXHRcdH1cclxuXHR9LFxyXG5cdGNvbXB1dGVkOntcclxuXHRcdHZhaWxQaG9uZSgpe1xyXG5cdFx0XHR2YXIgcGhvbmUgPSB0aGlzLnBob25lO1xyXG5cdFx0XHRpZihwaG9uZSl7XHJcblx0XHRcdFx0cmV0dXJuIHJlZy50ZXN0KHBob25lKTtcclxuXHRcdFx0fWVsc2V7XHJcblx0XHRcdFx0cmV0dXJuIHRydWU7XHJcblx0XHRcdH1cclxuXHRcdH0sXHJcblx0XHR0b3RhbFBhZ2UoKXtcclxuXHRcdFx0dmFyIHNpemUgPSB0aGlzLnBhZ2VTaXplO1xyXG5cdFx0XHR2YXIgdG90YWxJdGVtcyA9IHRoaXMubGlzdC5sZW5ndGg7XHJcblx0XHRcdHJldHVybiBNYXRoLmNlaWwodG90YWxJdGVtcy9zaXplKTtcclxuXHRcdH0sXHJcblx0XHRjYW5QcmUoKXtcclxuXHRcdFx0cmV0dXJuIHRoaXMuY3VyUGFnZSA+IDE7XHJcblx0XHR9LFxyXG5cdFx0Y2FuTmV4dCgpe1xyXG5cdFx0XHRyZXR1cm4gdGhpcy5jdXJQYWdlIDx0aGlzLnRvdGFsUGFnZTtcclxuXHRcdH1cclxuXHR9LFxyXG5cdG1ldGhvZHM6e1xyXG5cdFx0c2hvd0xvYWRpbmcoKXtcclxuXHRcdFx0bG9hZC5zaG93KCk7XHJcblx0XHRcdHNldFRpbWVvdXQoZnVuY3Rpb24oKXtcclxuXHRcdFx0XHRsb2FkLmhpZGUoKTtcclxuXHRcdFx0fSwzMDAwKTtcclxuXHRcdH0sXHJcblx0XHRzaG93TGlzdCgpe1xyXG5cdFx0XHR2YXIgc2l6ZSA9IHRoaXMucGFnZVNpemU7XHJcblx0XHRcdHZhciBzdGFydCA9ICh0aGlzLmN1clBhZ2UgLSAxKSpzaXplO1xyXG5cdFx0XHR2YXIgZW5kID0gdGhpcy5jdXJQYWdlKnNpemU7XHJcblx0XHRcdHJldHVybiB0aGlzLmxpc3Quc2xpY2Uoc3RhcnQsZW5kKTtcclxuXHRcdH0sXHJcblx0XHRwcmVQYWdlKCl7XHJcblx0XHRcdGlmKHRoaXMuY2FuUHJlKXtcclxuXHRcdFx0XHR0aGlzLmN1clBhZ2UtLTtcclxuXHRcdFx0fVxyXG5cdFx0fSxcclxuXHRcdG5leHRQYWdlKCl7XHJcblx0XHRcdGlmKHRoaXMuY2FuTmV4dCl7XHJcblx0XHRcdFx0dGhpcy5jdXJQYWdlKys7XHJcblx0XHRcdH1cclxuXHRcdH0sXHJcblx0XHRnb1BhZ2UocGFnZSl7XHJcblx0XHRcdHRoaXMuY3VyUGFnZSA9IHBhZ2U7XHJcblx0XHR9LFxyXG5cdFx0YWRkSXRlbSgpe1xyXG5cdFx0XHQkKCcjbXlNb2RhbCcpLm1vZGFsKCdzaG93Jyk7XHJcblx0XHR9LFxyXG5cdFx0bW9kaWZ5SXRlbShpdGVtKXtcclxuXHRcdFx0dGhpcy5jdXJJdGVtID0gaXRlbTtcclxuXHRcdFx0JCgnI215TW9kYWwnKS5tb2RhbCgnc2hvdycpO1xyXG5cdFx0fSxcclxuXHRcdGRlbGV0ZUl0ZW0oaXRlbSl7XHJcblx0XHRcdHZhciBmbGFnID0gY29uZmlybSgn56Gu5a6a5Yig6Zmk5ZCX77yfJyk7XHJcblx0XHRcdGlmKCFmbGFnKSByZXR1cm47XHJcblx0XHRcdHZhciBsaXN0ID0gdGhpcy5saXN0LmZpbHRlcihmdW5jdGlvbihzaSl7XHJcblx0XHRcdFx0cmV0dXJuIHNpLmlkICE9PSBpdGVtLmlkO1xyXG5cdFx0XHR9KTtcclxuXHRcdFx0dGhpcy5saXN0ID0gbGlzdDtcclxuXHRcdH0sXHJcblx0XHRzYXZlT3JNb2RpZnkoKXtcclxuXHRcdFx0dmFyIHBob25lID0gdGhpcy5waG9uZTtcclxuXHRcdFx0aWYoIXRoaXMudmFpbFBob25lKXtcclxuXHRcdFx0XHRyZXR1cm47XHJcblx0XHRcdH1cclxuXHRcdFx0dmFyIG5hbWUgPSB0aGlzLm5hbWU7XHJcblx0XHRcdHZhciBzZXggPSB0aGlzLnNleDtcclxuXHRcdFx0dmFyIGl0ZW0gPSB7XHJcblx0XHRcdFx0bmFtZTpuYW1lLFxyXG5cdFx0XHRcdHNleDpzZXgsXHJcblx0XHRcdFx0cGhvbmU6cGhvbmUsXHJcblx0XHRcdFx0aWQ6aWROdW1cclxuXHRcdFx0fTtcclxuXHRcdFx0dmFyIGhhc0lkID0gdGhpcy5jdXJJdGVtLmlkO1xyXG5cdFx0XHRpZihoYXNJZCl7Ly/kv67mlLlcclxuXHRcdFx0XHR2YXIgbGlzdCA9IHRoaXMubGlzdC5tYXAoZnVuY3Rpb24oc2kpe1xyXG5cdFx0XHRcdFx0aWYoc2kuaWQgPT09IGhhc0lkKXtcclxuXHRcdFx0XHRcdFx0aXRlbS5pZCA9IGhhc0lkO1xyXG5cdFx0XHRcdFx0XHRyZXR1cm4gaXRlbTtcclxuXHRcdFx0XHRcdH1lbHNle1xyXG5cdFx0XHRcdFx0XHRyZXR1cm4gc2k7XHJcblx0XHRcdFx0XHR9XHJcblx0XHRcdFx0fSk7XHJcblx0XHRcdFx0Y29uc29sZS5sb2cobGlzdCk7XHJcblx0XHRcdFx0dGhpcy5saXN0ID0gbGlzdDtcclxuXHRcdFx0fWVsc2V7Ly/mt7vliqBcclxuXHRcdFx0XHR0aGlzLmxpc3QucHVzaChpdGVtKTtcclxuXHRcdFx0fVxyXG5cdFx0XHR0aGlzLmN1ckl0ZW0gPSB7fTtcclxuXHRcdFx0aWROdW0rKztcclxuXHRcdFx0JCgnI215TW9kYWwnKS5tb2RhbCgnaGlkZScpO1xyXG5cdFx0fVxyXG5cdH1cclxufSk7XHJcblxyXG4kKCcjbXlNb2RhbCcpLm9uKCdoaWRlLmJzLm1vZGFsJyxmdW5jdGlvbigpe1xyXG5cdHZpZXcuY3VySXRlbSA9IHt9O1xyXG59KTtcclxuXG5cblxuLy8gV0VCUEFDSyBGT09URVIgLy9cbi8vIHNyYy92aWV3cy90ZXN0L3Rlc3QuanMiXSwibWFwcGluZ3MiOiI7O0FBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBUEE7QUFTQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUpBO0FBTUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUxBO0FBT0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQW5CQTtBQXFCQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBSkE7QUFNQTtBQUNBO0FBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUF4RUE7QUF2REE7QUFDQTtBQWtJQTtBQUNBO0FBQ0E7QSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///9\n");
 
 /***/ }),
-/* 12 */
+/* 10 */
+/* no static exports found */
+/* all exports used */
+/*!******************************************!*\
+  !*** ./src/components/loading/style.css ***!
+  \******************************************/
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+eval("// removed by extract-text-webpack-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMTAuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvY29tcG9uZW50cy9sb2FkaW5nL3N0eWxlLmNzcz8wOWQ2Il0sInNvdXJjZXNDb250ZW50IjpbIi8vIHJlbW92ZWQgYnkgZXh0cmFjdC10ZXh0LXdlYnBhY2stcGx1Z2luXG5cblxuLy8vLy8vLy8vLy8vLy8vLy8vXG4vLyBXRUJQQUNLIEZPT1RFUlxuLy8gLi9zcmMvY29tcG9uZW50cy9sb2FkaW5nL3N0eWxlLmNzc1xuLy8gbW9kdWxlIGlkID0gMTBcbi8vIG1vZHVsZSBjaHVua3MgPSAwIl0sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///10\n");
 
 /***/ }),
-/* 13 */
+/* 11 */
+/* no static exports found */
+/* all exports used */
+/*!******************************************!*\
+  !*** ./src/components/loading/view.html ***!
+  \******************************************/
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"loading_cell\">\r    <div class=\"loading_card\">\r        <span class=\"dots-loader\"></span>\r    </div>\r</div>\r"
+eval("module.exports = \"<div class=\\\"loading_cell\\\">\\r    <div class=\\\"loading_card\\\">\\r        <span class=\\\"dots-loader\\\"></span>\\r    </div>\\r</div>\\r\"//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMTEuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvY29tcG9uZW50cy9sb2FkaW5nL3ZpZXcuaHRtbD8zNWFmIl0sInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0gXCI8ZGl2IGNsYXNzPVxcXCJsb2FkaW5nX2NlbGxcXFwiPlxcciAgICA8ZGl2IGNsYXNzPVxcXCJsb2FkaW5nX2NhcmRcXFwiPlxcciAgICAgICAgPHNwYW4gY2xhc3M9XFxcImRvdHMtbG9hZGVyXFxcIj48L3NwYW4+XFxyICAgIDwvZGl2PlxccjwvZGl2PlxcclwiXG5cblxuLy8vLy8vLy8vLy8vLy8vLy8vXG4vLyBXRUJQQUNLIEZPT1RFUlxuLy8gLi9zcmMvY29tcG9uZW50cy9sb2FkaW5nL3ZpZXcuaHRtbFxuLy8gbW9kdWxlIGlkID0gMTFcbi8vIG1vZHVsZSBjaHVua3MgPSAwIl0sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///11\n");
 
 /***/ })
-],[11]);
-//# sourceMappingURL=test.bundle.js.map?v=1aa3e48cb7dbcde63a1b
+],[9]);

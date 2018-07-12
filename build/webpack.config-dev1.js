@@ -16,7 +16,7 @@ module.exports = {
 		test:path.resolve(__dirname, '../src/views/test/index.js')
 	},
 	output: { //打包出口;
-		publicPath: "/wechat-html/", //配合devServer本地Server;
+		// publicPath: "/wechat-html/", //配合devServer本地Server;
 		path: path.resolve(__dirname, '../dist/'), //出口地址;
 		filename: 'js/[name].bundle.js?v=[hash]', //出口文件名;
 	},
@@ -25,7 +25,7 @@ module.exports = {
 			{
 				//正则匹配后缀.js文件;
 				test: /\.js$/,
-				//需要排除的目录        
+				//需要排除的目录
 				exclude: /node_modules/,
 				//加载babel-loader转译es6
 				use: [{
@@ -209,7 +209,7 @@ module.exports = {
 		alias: {
 			"components":path.resolve(__dirname,'../src/components'),
 			"assets":path.resolve(__dirname,'../src/assets'),
-			"lib":path.resolve(__dirname,'../src/lib'),			
+			"lib":path.resolve(__dirname,'../src/lib'),
 		}
 	}
 };

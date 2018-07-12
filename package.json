@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --config build/webpack.config.js --progress -w -d --colors ",
-    "dev": " webpack-dev-server --config build/webpack.config.js --progress --inline --hot  --colors"
+    "build": "webpack --config build/webpack.config-build.js --progress -w -d --colors ",
+      "bd": "webpack --config build/webpack.config-bd.js --progress -w -d --colors ",
+    "dev": " webpack-dev-server --config build/webpack.config-dev.js --progress --inline --hot  --colors"
   },
   "keywords": [
     "webapck",

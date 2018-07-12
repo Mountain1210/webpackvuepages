@@ -1,4 +1,4 @@
-require('./index.css');
+require('./test.css');
 require('lib/bootstrap/css/bootstrap');
 //require('lib/bootstrap/js/bootstrap');
 var $ = jQuery;
