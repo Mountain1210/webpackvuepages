@@ -20,6 +20,24 @@ module.exports = {
 		path: path.resolve(__dirname, '../dist/'),
 		filename: 'js/[name].bundle.js?v=[hash]',
 	},
+	resolve: {
+		extensions: ['', '.js', '.vue'],
+		fallback: [path.join(__dirname, '../node_modules')],
+		alias: {
+		  'vue': 'vue/dist/vue.js'
+		  //'vuee$': 'vue/dist/vue.common.js'
+	
+		}
+	 },
+	externals: {
+	     	Vue:"vue",
+			$:"jquery",
+			jQuery:"jquery",
+
+			'_': "lodash"
+	},
+	
+
 	module: {
 		rules: [
 			{
@@ -134,6 +152,7 @@ module.exports = {
 					loader: 'vue-loader',
 				}
 			},
+
 			{
 
 				test: /\.html$/,
@@ -144,6 +163,12 @@ module.exports = {
 		]
 	},
 	plugins: [
+		new webpack.ProvidePlugin({
+			  $: 'jquery',
+			  jQuery: 'jquery',
+			  _:"lodash",
+			  Vue:"vue"
+		}),
 		new webpack.DefinePlugin({
 	      	'process.env': {
 	       		NODE_ENV: '"production"'
@@ -152,7 +177,7 @@ module.exports = {
 
 		new HtmlWebpackPlugin({
 			filename: 'index.html',
-			template: path.resolve(__dirname,'../src/views/index/index.ejs'),
+			template: path.resolve(__dirname,'../src/views/index/index.html'),
 			chunks:['commons','index']
 		}),
 		new HtmlWebpackPlugin({

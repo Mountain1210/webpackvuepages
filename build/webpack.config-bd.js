@@ -42,10 +42,19 @@ let config= {
 		test:path.resolve(__dirname, '../src/views/test/test.js')
 	},
 	output: {
-		publicPath: "/wechat-html/",
+		//publicPath: "/wechat-html/",
 		path: path.resolve(__dirname, '../dist/'),
 		filename: 'js/[name].bundle.js?v=[hash]',
 	},
+	resolve: {
+		extensions: ['', '.js', '.vue'],
+		fallback: [path.join(__dirname, '../node_modules')],
+		alias: {
+		  'vue': 'vue/dist/vue.js'
+		  //'vuee$': 'vue/dist/vue.common.js'
+	
+		}
+	 },
 	module: {
 		rules: [
 			{
